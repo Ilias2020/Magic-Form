@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Magic Form</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+<nav>
+    <div class="history">
+            <a href="index.html" id="form-link">Form</a>
+            <a href="history.html" id="history-link">History</a>
+    </div>
+</nav>
+<div class="history">
+    <form action="" role="form" onsubmit="signUp(event);">
+        <label for="first-name">First name</label>
+        <input class="form" type="text" id="first-name" name='first-name'>
+        <label for="last-name">Last name</label>
+        <input class="form" type="text" id="last-name" name='last-name'>
+        <label for="email">Email</label>
+        <input class="form" type="email" id="email" name='email'>
+        <label for="phone">Phone</label>
+        <input class="form" type="tel" id="phone" name='phone'>
+        <label for="company">Company</label>
+        <input class="form" type="text" id="company" name='company'>
+        <label for="address">Address</label>
+        <input class="form" type="text" id="address" name='address'>
+        <button id="submit-button" type="submit">Submit form</button>
+    </form>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
